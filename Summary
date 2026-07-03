@@ -1,0 +1,21 @@
+Methodology
+We combined historical trading data with the Fear & Greed Index by converting timestamps into a common date format and merging both datasets on the Date column. After verifying data quality, key trading metrics such as average PnL, win rate, average trade size, trades per day, and Long/Short ratio were calculated. These metrics were analyzed across different market sentiment categories
+
+Key Insights
+
+Insight 1
+Extreme Greed produced the highest average PnL (67.89) and the highest win rate (46.49%), indicating that trader performance improved during strong positive market sentiment.
+
+Insight 2
+Trading activity and average trade size were highest during Fear. However, larger trade sizes did not produce the highest profits, suggesting that increasing position size alone does not guarantee better performance.
+
+Insight 3
+Infrequent traders achieved a higher average PnL (96.94) compared to frequent traders (42.49), suggesting that selective trading may be more profitable than trading frequently.
+
+Strategy Recommendations
+
+Strategy 1
+Increase trading activity during periods of Extreme Greed while maintaining proper risk management, as these periods historically showed the highest profitability and win rates.
+
+Strategy 2
+Focus on fewer, high-quality trades instead of increasing trading frequency. The analysis indicates that selective trading generated better average returns.
